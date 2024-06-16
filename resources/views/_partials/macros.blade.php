@@ -1,0 +1,1 @@
+<img src="{{ asset('assets/img/logo-footer-blackn.svg') }}" alt="Newssport logo" height="50">

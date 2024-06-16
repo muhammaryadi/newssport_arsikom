@@ -1,0 +1,76 @@
+{
+  "menu": [
+    {
+      "menuHeader": "Konfigurasi Website",
+      "menuHeaderAccesser": [1, 2, 3]
+    },
+    {
+      "name": "Halaman",
+      "accesser": [1, 2],
+      "icon": "menu-icon tf-icons ti ti-layout-grid",
+      "slug": "produk",
+      "submenu": [
+        {
+          "url": "admin/produk",
+          "name": "Landing",
+          "slug": "product-list"
+        },
+        {
+          "url": "admin/produk/create",
+          "name": "Menu",
+          "slug": "product-add"
+        },
+        {
+          "url": "admin/produk/create",
+          "name": "About",
+          "slug": "product-add"
+        },
+        {
+          "url": "admin/produk/create",
+          "name": "Kontak",
+          "slug": "product-add"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Master Data",
+      "menuHeaderAccesser": [1, 2, 3]
+    },
+    {
+      "name": "Data Produk",
+      "accesser": [1, 2],
+      "icon": "menu-icon tf-icons ti ti-layout-grid",
+      "slug": "produk",
+      "submenu": [
+        {
+          "url": "admin/produk",
+          "name": "List Produk",
+          "slug": "product-list"
+        },
+        {
+          "url": "admin/produk/create",
+          "name": "Tambah Produk",
+          "slug": "product-add"
+        }
+      ]
+    },
+    {
+      "name": "Data Publikasi",
+      "accesser": [1, 2],
+      "icon": "menu-icon tf-icons ti ti-layout-grid",
+      "slug": "publikasi",
+      "submenu": [
+        {
+          "url": "admin/publikasi",
+          "name": "List Publikasi",
+          "slug": "publikasi-list"
+        },
+        {
+          "url": "admin/publikasi/create",
+          "name": "Tambah Publikasi",
+          "slug": "publikasi-add"
+        }
+      ]
+    }
+  ]
+}

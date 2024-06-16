@@ -1,0 +1,44 @@
+{
+  "menu": [
+    {
+      "menuHeader": "Konfigurasi Data",
+      "menuHeaderAccesser": [1, 2, 3]
+    },
+    {
+      "name": "Data Kategori",
+      "accesser": [1, 2],
+      "icon": "menu-icon tf-icons ti ti-layout-grid",
+      "slug": "kategori",
+      "submenu": [
+        {
+          "url": "admin/kategori",
+          "name": "List Kategori",
+          "slug": "kategori-list"
+        },
+        {
+          "url": "admin/kategori/create",
+          "name": "Tambah Kategori",
+          "slug": "kategori-add"
+        }
+      ]
+    },
+    {
+      "name": "Data Article",
+      "accesser": [1, 2],
+      "icon": "menu-icon tf-icons ti ti-layout-grid",
+      "slug": "article",
+      "submenu": [
+        {
+          "url": "admin/article",
+          "name": "List Article",
+          "slug": "article-list"
+        },
+        {
+          "url": "admin/article/create",
+          "name": "Tambah Article",
+          "slug": "article-add"
+        }
+      ]
+    }
+  ]
+}
