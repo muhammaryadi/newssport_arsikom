@@ -101,7 +101,7 @@ CREATE TABLE `failed_jobs` (
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `migrations`
+-- Struktur tabel `migrations`
 --
 
 CREATE TABLE `migrations` (
